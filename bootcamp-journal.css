@@ -11,18 +11,16 @@
     border: 1px solid red;
 }
 .container3 {
-    width: 1335px;
+    width: 1319px;
     height: 70px;
     background-color: pink;
     border: 1px solid red;
 }
 
 .scroll-button {
-    position: fixed;
-    display: flex;
-    bottom: 20px;
-    right: 20px;
-    padding: 15x 20px;
+    
+    
+
     background-color: orangered;
     color: white;
     border: 5px;
@@ -32,9 +30,13 @@
 }
 
 .scroll-buttons-container {
+    position: fixed;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
+    bottom: 20px;
+    right: 20px;
+    padding: 15x 20px;
 }
 
 .back-to-top {

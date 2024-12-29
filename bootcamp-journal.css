@@ -1,0 +1,50 @@
+.container1 {
+    width: 1330px;
+    height: 110px;
+    background-color: pink;
+    border: 1px solid red;
+}
+.container2 {
+    width: 1330px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 1px solid red;
+}
+.container3 {
+    width: 1335px;
+    height: 70px;
+    background-color: pink;
+    border: 1px solid red;
+}
+
+.scroll-button {
+    position: fixed;
+    display: flex;
+    bottom: 20px;
+    right: 20px;
+    padding: 15x 20px;
+    background-color: orangered;
+    color: white;
+    border: 5px;
+    border-radius: 1px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.scroll-buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.back-to-top {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: cornsilk;
+    font-weight: bold;
+}
+
+.back-to-top-hover {
+    color: black;
+}
